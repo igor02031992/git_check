@@ -8,7 +8,9 @@ int main()
     char *locale = setlocale(LC_ALL, "");
     int q,n,F,year = 0;
     float qnow;
-    int july = 31;
+
+    int days = 31;
+
     printf("check commit");
     printf("Введите количество населения q = ");
     scanf("%d", &q);
@@ -27,10 +29,13 @@ int main()
         year++;
         printf("\nГод: %d Рост населения: %.0f", year, qnow);
     }
-    if(month == "july")
-    {
-        printf("\nthe day in july is %d\n" july);
+  
+     
+    if(month =="August"){
+        days = 31;
     }
+    printf("\nthe day in month is %d\n" days);
+
 
     printf("\nЧерез %d лет в %d раз увеличится население", year, n);
 }
