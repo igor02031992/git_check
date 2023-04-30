@@ -34,7 +34,11 @@ int main()
     if(month =="August"){
         days = 31;
     }
+<<<<<<< HEAD
     printf("\nthe day in month is %d\n" days);
+=======
+    //+++printf("\nthe day in month is %d\n" days);
+>>>>>>> 1e10ec5 (There is no more need printf)
 
 
     printf("\nЧерез %d лет в %d раз увеличится население", year, n);
